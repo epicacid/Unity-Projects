@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour {
 		_horz = Input.GetAxis ("Horizontal");
 		_vert = Input.GetAxis ("Vertical");
 
-		_anim.SetFloat ("Walk", _vert);
+		_anim.SetFloat ("Vertical", _vert);
 		_anim.SetFloat ("Horizontal", _horz);
 
 		_thisTransform.position += transform.forward * movSpeed * _vert * Time.deltaTime;

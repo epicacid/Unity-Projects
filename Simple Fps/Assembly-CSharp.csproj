@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Player Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\Player Scripts\Inventory.cs" />
      <Compile Include="Assets\Scripts\Player Scripts\MouseRotation.cs" />
      <Compile Include="Assets\Scripts\Player Scripts\PickUpFood.cs" />
      <Compile Include="Assets\Scripts\Player Scripts\PlayerEnergy.cs" />
